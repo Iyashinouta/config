@@ -27,7 +27,7 @@
     "save_selected_only": true,
     "do_not_add_watermark": false,
     "temp_dir": "",
-    "clean_temp_dir_at_start": false,    
+    "clean_temp_dir_at_start": false,
     "outdir_samples": "outputs/MyDrive/outputs",
     "outdir_txt2img_samples": "outputs/MyDrive/outputs",
     "outdir_img2img_samples": "outputs/MyDrive/outputs",
@@ -186,7 +186,7 @@
     "tac_extra.extraFile": "extra-quality-tags.csv",
     "tac_extra.addMode": "Insert before",
     "ctp_flavor": "mocha",
-    "accent_color": "rosewater",
+    "accent_color": "sky",
     "control_net_model_config": "models/cldm_v15.yaml",
     "control_net_model_adapter_config": "models/sketch_adapter_v14.yaml",
     "control_net_detectedmap_dir": "detected_maps",
@@ -208,5 +208,11 @@
     "images_delete_message": true,
     "images_history_page_columns": 6.0,
     "images_history_page_rows": 6.0,
-    "images_history_pages_perload": 20.0
+    "images_history_pages_perload": 20.0,
+    "lora_apply_to_outputs": false,
+    "openpose3d_use_online_version": false,
+    "control_net_modules_path": "",
+    "control_net_high_res_only_mid": false,
+    "controlnet_show_batch_images_in_ui": false,
+    "controlnet_increment_seed_during_batch": false
 }
